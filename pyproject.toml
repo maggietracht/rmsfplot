@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"
+
+[project]
+name = "rmsfplot"
+version = "0.3.0"
+authors = [
+	{ name = "Maggie Tracht", email="maggietracht@gmail.com"},
+	]
+
+description = "A tool for generating plots from existing RMSF data files."
+readme = "README.md"
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+requires-python = ">=3.9"
+dependencies = ['matplotlib', 'numpy', 'pandas', 'plotly']
+keywords = ["RMSF", "plotting tool", "MD analysis"]
+classifiers = [
+	"Programming Language :: Python :: 3",
+	"Operating System :: OS Independent",
+	]
+[project.urls]
+homepage = "https://github.com/maggietracht/rmsfplot"
+
+
+
