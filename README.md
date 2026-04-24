@@ -2,6 +2,13 @@ RMSFPLOT
 
 A plotting tool that generates plots from existing RMSF analysis data files.
 
+
+Data file requirements [IMPORTANT]
+
+For this package to work as designed, your RMSF data files should contain the extension ".dat", contain a header with "#Res" and "AtomicFlx" and have columns separated by one or more whitespace characters. 
+
+
+
 Installation
 
 Run this command in a terminal:
