@@ -21,6 +21,13 @@ Import with the following command:
 
 	from rmsfplot import rmplot
 
+Testing
+
+To try out this package, copy the three files from the test folder into a new directory. Copy 'test_script.py' into this new directory as well. To run the script, run the following command within the directory:
+
+	python3 test_script.py
+
+
 Running Commands
 
 Run commands using the following format:
